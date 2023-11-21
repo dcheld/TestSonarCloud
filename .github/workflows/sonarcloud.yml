@@ -61,7 +61,7 @@ jobs:
                 /o:"creditas-fintech" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" `
                 /d:sonar.host.url="https://sonarcloud.io" `
                 /d:sonar.cs.vscoveragexml.reportsPaths=coverage.xml `
-                "/s:$location\SonarQube.Analysis.xml";
+                /s:"$location\SonarQube.Analysis.xml";
 
           dotnet build --no-incremental;
           .\.tools\coverage\dotnet-coverage collect "dotnet test" -f xml -o "coverage.xml";

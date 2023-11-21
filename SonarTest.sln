@@ -17,6 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migrations", "src\Migration
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6607BC04-A869-41A2-AE5D-5FF48A8AB87F}"
 	ProjectSection(SolutionItems) = preProject
+		.github\workflows\sonarcloud.yml = .github\workflows\sonarcloud.yml
 		SonarQube.Analysis.xml = SonarQube.Analysis.xml
 	EndProjectSection
 EndProject
