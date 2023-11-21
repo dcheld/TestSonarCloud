@@ -2,7 +2,6 @@
 {
     public class RetornaUmClass
     {
-
         public int RetornaUm()
         {
             return 1;
