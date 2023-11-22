@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\ClassLibrary1\ClassLibrary1.csproj" />
+    <ProjectReference Include="..\..\src\ConsoleApp1\ConsoleApp1.csproj" />
   </ItemGroup>
 
 </Project>

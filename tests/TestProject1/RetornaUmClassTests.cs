@@ -11,5 +11,11 @@ namespace TestProject1
             var result = obj.RetornaUm();
             Assert.True(result == 1);
         }
+
+        [Fact]
+        public void Test2()
+        {
+            Program.Main();
+        }
     }
 }
