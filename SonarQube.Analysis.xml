@@ -1,7 +1,7 @@
 <SonarQubeAnalysisProperties  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <Property Name="sonar.organization">creditas-fintech</Property>
-  <Property Name="sonar.projectKey">Creditas_insurance-decil</Property>
-  <Property Name="sonar.projectName">insurance-decil</Property>
+  <Property Name="sonar.organization">dcheld</Property>
+  <Property Name="sonar.projectKey">dcheld_TestSonarCloud</Property>
+  <Property Name="sonar.projectName">TestSonarCloud</Property>
 
   <Property Name="sonar.exclusions">src/Migrations/</Property>
   <Property Name="sonar.coverage.exclusions>">src/Migrations/</Property>
