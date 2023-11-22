@@ -4,4 +4,5 @@
   <Property Name="sonar.projectName">TestSonarCloud</Property>
 
   <Property Name="sonar.exclusions">src/Migrations/</Property>
+  <Property Name="sonar.coverage.exclusions">src/Migrations/**</Property>
 </SonarQubeAnalysisProperties>
